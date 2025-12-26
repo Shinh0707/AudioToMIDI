@@ -41,7 +41,7 @@ git clone https://github.com/xavriley/ADTOF-pytorch.git
 ```
 
 ### 3. 依存ライブラリのインストール
-作成した `requirements.txt` を使用して必要なライブラリをインストールします。**ADTOF-pytorch**への参照も含まれているので、**必ず**先に手順２を行って下さい。
+`requirements.txt` を使用して必要なライブラリをインストールします。**ADTOF-pytorch**への参照も含まれているので、**必ず**先に手順２を行って下さい。
 
 ```bash
 pip install -r requirements.txt
