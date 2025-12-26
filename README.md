@@ -3,7 +3,7 @@
 ## 概要
 これは、オーディオファイル（WAV, MP3など）を自動的にMIDIファイルに変換するGUIアプリケーションです。
 「[Demucs](https://github.com/facebookresearch/demucs)」(Meta)を使用して音源を各パート（ボーカル、ドラム、ベース、その他）に分離し、「[Basic Pitch](https://github.com/spotify/basic-pitch)」(Spotify)および「[ADTOF](https://github.com/MZehren/ADTOF)」を使用してそれぞれのパートをMIDIデータに変換します。
-また、カスタムモデル「BandIt」を使用した高度な分離処理もサポートしており、特定の音源（スピーチや効果音など）の分離と統合が可能です。
+また、カスタムモデル「[BandIt](https://github.com/kwatcharasupat/bandit)」を使用した高度な分離処理もサポートしており、特定の音源（スピーチや効果音など）の分離と統合が可能です。
 
 ## 機能
 *   **音源分離**: 
