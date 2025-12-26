@@ -29,15 +29,7 @@ python3.11 -m venv venv
 source venv/bin/activate
 ```
 
-### 2. 依存ライブラリのインストール
-作成した `requirements.txt` を使用して必要なライブラリをインストールします。
-
-```bash
-pip install -r requirements.txt
-```
-※ `requirements.txt` が存在しない場合は、`pip freeze > requirements.txt` を実行して作成してください（本リポジトリには生成済みファイルが含まれる場合があります）。
-
-### 3. 必要なリポジトリのクローン
+### 2. 必要なリポジトリのクローン
 以下の2つのGitHubリポジトリをプロジェクトのルートディレクトリにクローンしてください。
 
 *   **Music-Source-Separation-Training** (BandItモデル用)
@@ -46,6 +38,13 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/ZFTurbo/Music-Source-Separation-Training.git
 git clone https://github.com/xavriley/ADTOF-pytorch.git
+```
+
+### 3. 依存ライブラリのインストール
+作成した `requirements.txt` を使用して必要なライブラリをインストールします。**ADTOF-pytorch**への参照も含まれているので、**必ず**先に手順２を行って下さい。
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### 4. BandItモデルのセットアップ
